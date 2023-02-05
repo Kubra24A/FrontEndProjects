@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+html,
+body{
+    margin: 0;
+    height: 100%;
+}
+h2{
+    margin: 0;
+    padding: 20px 0px;
+}
+   
+a{
+    text-decoration: none;
+
+}
+main{
+    height: 100%;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.menu-scroll{
+    background-color: rgba(0, 0, 0, 0.5);
+  
+}
+.menu-scroll ul{
+    padding: 10px 0;
+}
+.menu ul{
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0;
+}
+.menu ul li a {
+    color:#fff;
+    font-size: 22px;
+    padding-bottom: 4px;
+  
+  
+    
+}
+
+
+.menu ul li a:hover{
+   border-bottom: 2px solid rgb(228, 240, 236);
+   padding-bottom: 4px;
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-main{
+    background-image:linear-gradient(rgba(59, 53, 53, 0.6), rgba(0, 0, 0, 0.6)), url(/img/wp8746267.jpg);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-main .hero {
+    text-align: center;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+.section-main .hero-san{
+    width: 750px;
+    color: #fff;
+    font-weight: 275;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section-main .hero-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+
+   width: 150px;
+   height: 40px;
+   
+
+   font-size: 16px;
+    box-shadow: 0px 1px 1px rgb(216, 194, 159), 0px 0px 0px 2px rgb(7, 66, 35);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+.section-main h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section-galery{
+    background-image:linear-gradient(rgba(64, 64, 64, 0.6), rgba(0, 0, 0, 0.6)),url(/img/wp6995851.jpg) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.section-galery .text-center{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+ .card{
+   
+  width: 210px;
+  background: rgba(46, 46, 46, 0.5);
+  padding: 21px;
+  box-sizing: border-box;
+}
+.card .read-more{
+    background: rgba(81, 81, 81, 0.45);
+    border-radius: 8px;
+    padding: 5px;
+    color: rgb(229, 238, 234);
+    font-size: 12px;
+    align-self: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card img{
+    border-radius: 4px;
+}
+
+.card .card-conter{
+display: flex;
+flex-flow: column;
+gap: 10px;
+}
+.card .card-desc{
+    height: 140px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card .card-title{
+    font-size: 24px;
+}
+.section-galery h2{
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.section-about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/img/vegan-diet-cancer-01.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-about h2{
+    font-size: 40px;
+    color:#fff;
+    
+}
+.section-about .text-center{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section-about .text-title{
+    font-size: 18px;
+    font-weight: 300px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.section-about > div {
+    max-width: 720px;
+    margin: auto;
+}
+
+.section-product{
+ background-color:rgb(2, 37, 13);
+}
+.section-product h2{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section-product p{
+    font-size: 12px;
+    color: #fff;
+}
+.section-product container {
+    padding: 80px 120px;
+  }
+  
+.section-product .person{
+    border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 50%;
+  opacity: 0.7;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.section-product .person:hover {
+    border-color: #f2cdcd;
+  }
+
+  
+.section-communication{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/img/Secluded-Forest-Cabin-1920x1080.jpg);
+}
+.section-communication .row{
+    color: #fff;
+}
+.section-communication .text-center{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+@media only screen and(max-width:1024px){
+    h2{
+        text-align: center;
+        
+    }
+}
