@@ -25,7 +25,7 @@ MagiCo is a travel and culture blog site. This site gives information about not 
 ![Adsız tasarım (2)](https://user-images.githubusercontent.com/113041850/221056885-2fc95033-ff11-4849-a929-e26c234ef296.jpg)
 
 
-![Adsız tasarım (3)](https://user-images.githubusercontent.com/113041850/221056916-2a05cff6-1e66-462a-ba51-640e4c7daa76.jpg)
+
 
 https://user-images.githubusercontent.com/113041850/221055675-355a6dbd-6685-47e0-a195-247b0bd2feee.mp4
 https://user-images.githubusercontent.com/113041850/221055709-e103c730-df45-4c7d-8f42-014e8c818424.mp4
