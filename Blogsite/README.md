@@ -20,10 +20,9 @@ MagiCo is a travel and culture blog site. This site gives information about not 
 <img width="202" alt="Ekran görüntüsü 2023-02-23 030450" src="https://user-images.githubusercontent.com/113041850/221054731-e57a2a46-12c4-4719-9ef0-401c0e657949.png">                                                                                                                                     <img width="145" alt="Ekran görüntüsü 2023-02-23 031655" src="https://user-images.githubusercontent.com/113041850/221054753-db79361c-786f-4c8e-bb2f-36da524b9642.png">                                                                                  <img width="146" alt="Ekran görüntüsü 2023-02-23 031759" src="https://user-images.githubusercontent.com/113041850/221054790-034607e9-8dd8-45b3-9ef0-42c26beafc2a.png">
 
 
-![Adsız tasarım (1)](https://user-images.githubusercontent.com/113041850/221056762-0d4d6b9c-0780-4e8f-aab5-366aff2a2e28.jpg)
 
-![Adsız tasarım (2)](https://user-images.githubusercontent.com/113041850/221056885-2fc95033-ff11-4849-a929-e26c234ef296.jpg)
 
+<img width="386" alt="Ekran görüntüsü 2023-02-24 025324" src="https://user-images.githubusercontent.com/113041850/221058132-a64d370e-9cd1-496e-ac40-e06a8223b1a1.png">
 
 
 
@@ -47,9 +46,6 @@ https://user-images.githubusercontent.com/113041850/221055809-86ab55a8-f787-42d5
 <img width="250" alt="Ekran görüntüsü 2023-02-24 020222" src="https://user-images.githubusercontent.com/113041850/221056045-5f31926e-8ffd-447e-9d4d-9eae7ddb2951.png">
 
 
-
-
-
 <img width="176" alt="Ekran görüntüsü 2023-02-23 220019" src="https://user-images.githubusercontent.com/113041850/221056299-a0d169d1-c82d-4ca6-baae-5de0a1e32463.png">
 
 
@@ -63,3 +59,4 @@ https://user-images.githubusercontent.com/113041850/221055809-86ab55a8-f787-42d5
 
 
 
+<img width="348" alt="Ekran görüntüsü 2023-02-24 025133" src="https://user-images.githubusercontent.com/113041850/221058154-b74c094a-ab14-47ca-9b7f-374d34c1e9c0.png">
