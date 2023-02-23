@@ -42,9 +42,8 @@ https://user-images.githubusercontent.com/113041850/221055809-86ab55a8-f787-42d5
 
 
 
-<img width="247" alt="Ekran görüntüsü 2023-02-24 020330" src="https://user-images.githubusercontent.com/113041850/221056083-cdaaeb2c-e23d-4b8d-87b0-90f196a323d5.png">
 
-
+<img width="176" alt="Ekran görüntüsü 2023-02-23 220019" src="https://user-images.githubusercontent.com/113041850/221056299-a0d169d1-c82d-4ca6-baae-5de0a1e32463.png">
 
 
 
@@ -54,3 +53,5 @@ https://user-images.githubusercontent.com/113041850/221055809-86ab55a8-f787-42d5
 
 
 <img width="282" alt="Ekran görüntüsü 2023-02-24 020740" src="https://user-images.githubusercontent.com/113041850/221056152-7bc886a5-ccb9-4da7-a598-b696fc894eee.png">
+
+
