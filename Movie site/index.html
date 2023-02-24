@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+     <link rel="shortcut icon" href="img/fav-icon.png"/>
+     <link rel="stylesheet" href="/css/lux.css">
+
+    <title>MHD - Full HD Movies</title>
+</head>
+<body>
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+        <!--==Navigation===================================-->
+        <nav class="navigation">
+            <!--menu-btn--------------------->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+    
+    
+            <!--logo-------------------------->
+            <a href="index.html" class="logo">
+                MovieWorld<span>.hd</span>
+            </a>
+    
+            <!--menu-------------------------->
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Genre</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    
+            <!--Search-box--------------------->
+            <form action="" class="search-box">
+                <!--input-->
+                <input type="text" name="search" placeholder="search MovieWorld" class="search-input" required/>
+                 <!--btn-->
+                 <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </nav>
+        <script>
+            const submit = document.querySelector('.submit');
+            const search = document.querySelector ('.search');
+            submit.onclick = function(){
+                search.classList.toggle('active');
+            }
+        </script>
+        <!--nav-end--->
+         <!--==Movie-Banner=========================================-->
+         <section class="movie-banner">
+            <!--==img==================================-->
+            <div class="m-banner-img">
+                <img alt="" src="img/Avatar_The_Way_of_The_Water_2022_Film_5K_Posters_2560x1440.jpg" style="width: 100%; height: 100%;">
+        
+            </div>
+           <!--content================================-->
+            <div class="banner-container">
+                <!--title-container----->
+                <div class="title-container">
+                    <!--title-top===============-->
+                    <div class="title-top">
+                    <!--title----->
+                    <div class="movie-title">
+                        <h1> Avatar: The Way of Water</h1>
+                    </div>
+                    <!--more-about-movie-->
+                    <div class="more-about-movie">
+                        <span class="quality">Full HD</span>
+                        <div class="rating">
+                            7.8 <img alt="imbd" src="img/IMDb-icon.png">
+                        </div>
+                        <span> 16 December 2022 </span>
+                        <span>192min</span>
+                    </div>
+                    <!--language--------->
+                    <div class="language">
+                        <span>English</span>
+                    </div>
+                    </div>
+                    <!--Title-botttom==========================-->
+                    <div class="title-bottom">
+                        <a href="https://www.youtube.com/watch?v=o5F8MOz_IDw" class="watch-btn">Watch Trailer</a>
+                    </div>
+                </div>
+                <!--==play-btn=================================--->
+                <div class="play-btn-container">
+                    <div class="play-btn">
+                        <a href="javascript:void">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--==Video/full-Movie=================================-->
+                <div id="play" class="play">
+                    <!--close-btn--->
+                    <a href="javascript:void" class="close-movie">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    <!--movie------->
+                    <div class="play-movie">
+                        <video id="m-video" controls>
+                            <source src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Banner-end------------->
+        <!--details=====================================-->
+        <section class="movie-details">
+            <strong>Avatar : Way Of Water</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam architecto, debitis quia similique adipisci autem quod eligendi delectus dolorum iusto. Eius, nobis ducimus! Corrupti nobis id itaque facere a.</p>
+        </section>
+        <!--==ScreenShots===============================-->
+        <section class="screenshots" id="Legens">
+           
+            <!--screenshots-container----------->
+            
+                <div>
+                    <h2 class="text-center">Legends Movies</h2>
+                    
+                    <div class="cards">
+                       <div class="card">
+                       <img src="/img/1df45609863391c809b49b4f0e856522.jpg" alt="movie" width="200" height="200">
+                       <div class="card-conter">
+                       <div class="card-title" style="color: white;"><strong>Star Wars</strong></div>
+                       <div class="card-title" style="font-family: 'Bungee Spice', cursive;"><h2>George Lucas</h2></div>
+                       <div class="card-desc" style="color: rgb(249, 253, 249);"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ullam delectus assumenda quas? Nesciunt dolorum corrupti tempora ipsam? Neque minima atque voluptas adipisci ipsa quam quidem consectetur fugit aliquid ab. </div>
+                       <a href="movie.html" class="read-more">Read More </a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                    <img src="/img/0590adf3103a25de5392a793bf1c1544.jpg" alt="movie2" width="205" height="200">
+                    <div class="card-conter">
+                    <div class="card-title" style="color: rgb(249, 250, 249);"><strong>The Titanic</strong></div>
+                    <div class="card-title" style="font-family: 'Bungee Spice', cursive;"><h2>James Cameron</h2></div>
+                    <div class="card-desc" style="color: rgb(249, 253, 249);"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam dolore sit iure aspernatur modi porro nesciunt est dicta, placeat totam iste reprehenderit recusandae ex quos maxime quasi. Architecto, unde? </div>
+
+                    <a href="movie.html" class="read-more">Read More</a>
+                 </div>
+             </div>
+             <div class="cards">
+                <div class="card">
+                <img src="/img/FYIdo9oXkAEUAFs.jfif" alt="movie3" width="199" height="210">
+                <div class="card-conter">
+                <div class="card-title" style="color: rgb(249, 250, 249);"><strong> <h2>BraveHeart</h2> </strong></div>
+                <div class="card-desc" style="font-family: 'Bungee Spice', cursive;"><h2>Mel Gibson</h2></div><div class="card-desc" style="color: rgb(249, 253, 249);"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ullam delectus assumenda quas? Nesciunt dolorum corrupti tempora ipsam? Neque minima atque voluptas adipisci ipsa quam quidem consectetur. </div>
+                <a href="movie.html" class="read-more">Read More</a>
+             </div>
+         </div>
+         <div class="cards">
+            <div class="card">
+            <img src="/img/99377.jpg" alt="movie4" width="200" height="210">
+            <div class="card-conter">
+            <div class="card-title" style="color: rgb(249, 250, 249);"><strong>The Lord of the Rings</strong></div>
+            <div class="card-desc" style="font-family: 'Bungee Spice', cursive;"> <h2>Peter Jackson</h2></div>
+              <div class="card-desc" style="color: rgb(249, 253, 249);"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ullam delectus assumenda quas? Nesciunt dolorum corrupti tempora ipsam? Neque minima atque voluptas adipisci ipsa quam quidem consectetur fugit aliquid ab.</div>
+            <a href="movie.html" class="read-more">Read More</a>
+         </div>
+           </div>
+       
+                </div>
+                   </div>
+               
+            
+            
+        </section>
+        <!--Download====================================-->
+        <section class="download-movie">
+            <!--container----------------->
+            <div class="download-container">
+                <!--box---->
+                <div class="download-box">
+                    <span><i class="fas fa-server"></i> Server 1</span>
+                    <span>English</span>
+                    <span>480p</span>
+                    <a href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mkv" download>Download</a>
+                </div>
+                <!--box---->
+                <div class="download-box">
+                    <span><i class="fas fa-server"></i> Server 2</span>
+                    <span>English</span>
+                    <span>720p</span>
+                    <a href="#">Download</a>
+                </div>
+                <!--box---->
+                <div class="download-box">
+                    <span><i class="fas fa-server"></i> Server 3</span>
+                    <span>English</span>
+                    <span>1080p</span>
+                    <a href="#">Download</a>
+                </div>
+            </div>
+        </section>
+        <!--==footer==============================-->
+        <footer>
+            <!--footer-logo--->
+            <a href="index.html" class="logo">
+                Movies<span>hd</span>
+            </a>
+            <!--copyright----->
+            <span class="copyright">
+                Copyright 2023 - GoingToInternet
+            </span>
+        </footer>
+        <script src="js/film.js"></script>
+    <script>
+        /*==scroll-progress-bar======================*/
+        
+        window.onscroll = scrollPrecentage;
+        window.onload = scrollPrecentage;
+        /*--menu-btn-fixed-when-scroll============*/
+        $(window).scroll(function(){
+            if($(document).scrollTop() > 20){
+                $('.navigation').addClass('fix-icon');
+            }
+            else{
+                $('.navigation').removeClass('fix-icon');
+            }
+        });
+        /*==popup-open==================================*/
+        $(document).on('click','.play-btn a',function(){
+            $('.play').addClass('active-popup');
+        });
+        /*==popup-Close==================================*/
+        $(document).on('click','.close-movie',function(){
+            $('.play').removeClass('active-popup');
+        });
+        /*==auto-play-when-popup-open===================*/
+        $('.play-btn a').click(function(){
+            $('#m-video')[0].play();
+        });
+        /*==Close-video-when-poppup-close==============*/
+        $('.close-movie').click(function(){
+            $('#m-video')[0].pause();
+        });
+    </script>
+    </body>
+    
+
+
+
+    <!--==slider====================================-->
+    <section id="main-slider">
+
+        <!-- Swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    <!--1------------------------------------------>
+      <div class="swiper-slide">
+
+        <!--box--------------------->
+        <div class="main-slider-box">
+            <a href="movie.html" class="main-slider-overlay">
+                <i class="fas fa-play"></i>
+            </a>
+
+            <!--img------------------>
+            <div class="main-slider-img">
+            <img alt="Poster" src="img/595b4ee07a8a6_409576b.jpg"/>
+        </div>
+
+        <!--text--------------------->
+        <div class="main-slider-text">
+            <!--quality------------->
+            <span class="quality">Full HD</span>
+
+            <!--bottom-text-->
+            <div class="bottom-text">
+                <!--name----->
+                <div class="movie-name">
+                    <span>2017</span>
+                    <a href="movie.html" style="font-size: 20px;">İnception</a>
+                </div>
+                <!--Category-and-rating---->
+                <div class="category-rating">
+                    <!--category-->
+                    <div class="category">
+                        <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                    </div>
+                    <!--rating--->
+                    <div class="rating">
+                        5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ </div>
+</div>
+<!--2------------------------------------------>
+<div class="swiper-slide">
+  <!--box------------------->
+  <div class="main-slider-box">
+      <!--overlayer-------->
+      <a href="movie.html" class="main-slider-overlay">
+          <i class="fas fa-play"></i>
+      </a><div class="main-slider-img">
+          <img alt="Poster" src="img/46117.jpg"/>
+      </div>
+      <div class="main-slider-text">
+          <!--quality----->
+          <span class="quality">Full HD</span>
+          <!--bottom-text-->
+          <div class="bottom-text">
+              <!--name----->
+              <div class="movie-name">
+                  <span>2017</span>
+                  <a href="movie.html" style="font-size: 15px;">Pirates of the Caribbean: Black Pearl</a>
+              </div>
+              <!--Category-and-rating---->
+              <div class="category-rating">
+                <!--category-->
+                <div class="category">
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--rating--->
+                <div class="rating">
+                    5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+<!--3------------------------------------------>
+<div class="swiper-slide">
+  <!--box------------------->
+  <div class="main-slider-box">
+      <!--overlayer-------->
+      <a href="#" class="main-slider-overlay">
+          <i class="fas fa-play"></i>
+      </a>
+      <!--img----------->
+      <div class="main-slider-img">
+        <img alt="Poster" src="img/p-3.jpg"/>
+    </div>
+    <!--text---------->
+    <div class="main-slider-text">
+        <!--quality----->
+        <span class="quality">Full HD</span>
+        <!--bottom-text-->
+        <div class="bottom-text">
+            <!--name----->
+            <div class="movie-name">
+                <span>2020</span>
+                <a href="#"style="font-size: 20px;" >BloodShot</a>
+            </div>
+            <!--Category-and-rating---->
+            <div class="category-rating">
+                <!--category-->
+                <div class="category">
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--rating--->
+                <div class="rating">
+                    5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--4------------------------------------------>
+<div class="swiper-slide">
+<!--box------------------->
+<div class="main-slider-box">
+    <!--overlayer-------->
+    <a href="#" class="main-slider-overlay">
+        <i class="fas fa-play"></i>
+    </a>
+    <!--img----------->
+    <div class="main-slider-img">
+        <img alt="Poster" src="img/p-4.jpg"/>
+    </div>
+    <!--text---------->
+    <div class="main-slider-text">
+        <!--quality----->
+        <span class="quality">Full HD</span>
+        <!--bottom-text-->
+        <div class="bottom-text">
+            <!--name----->
+            <div class="movie-name">
+                <span>2021</span>
+                <a href="#" style="font-size: 15px;">Venom: Let There Be Carnage</a>
+            </div>
+            <!--Category-and-rating---->
+            <div class="category-rating">
+                <!--category-->
+                <div class="category">
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--rating--->
+                <div class="rating">
+                    5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--5------------------------------------------>
+<div class="swiper-slide">
+<!--box------------------->
+<div class="main-slider-box">
+    <!--overlayer-------->
+    <a href="#" class="main-slider-overlay">
+        <i class="fas fa-play"></i>
+    </a>
+    <!--img----------->
+    <div class="main-slider-img">
+        <img alt="Poster" src="img/p-5.jpg"/>
+    </div>
+    <!--text---------->
+    <div class="main-slider-text">
+        <!--quality----->
+        <span class="quality">Full HD</span>
+        <!--bottom-text-->
+        <div class="bottom-text">
+            <!--name----->
+            <div class="movie-name">
+                <span>2018</span>
+                <a href="#" style="font-size: 25px;">Deadpool 2</a>
+            </div>
+            <!--Category-and-rating---->
+            <div class="category-rating">
+                <!--category-->
+                <div class="category">
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--rating--->
+                <div class="rating">
+                    5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--6------------------------------------------>
+<div class="swiper-slide">
+<!--box------------------->
+<div class="main-slider-box">
+    <!--overlayer-------->
+    <a href="#" class="main-slider-overlay">
+        <i class="fas fa-play"></i>
+    </a>
+    <!--img----------->
+    <div class="main-slider-img">
+        <img alt="Poster" src="img/p-6.jpg"/>
+    </div>
+    <!--text---------->
+    <div class="main-slider-text">
+        <!--quality----->
+        <span class="quality">Full HD</span>
+        <!--bottom-text-->
+        <div class="bottom-text">
+            <!--name----->
+            <div class="movie-name">
+                <span>2021</span>
+                <a href="#"style="font-size: 25px;" >Black Widow</a>
+            </div>
+            <!--Category-and-rating---->
+            <div class="category-rating">
+                <!--category-->
+                <div class="category">
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--rating--->
+                <div class="rating">
+                    5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+<!--btns-------------------->
+<div class="slider-btns">
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<!--slider-end-------->
+<!--==Latest-Movies==================================-->
+<section id="latest">
+<!--heading-------->
+<div class="latest-heading">
+    <h1>Latest Movies</h1>
+</div>
+<!--container------->
+<div class="post-container">
+    <!--post-box-1------------>
+    <div class="post-box">
+        <!--img-->
+        <div class="post-img">
+            <img alt="" src="img/post-1.jpg"/>
+        </div>
+        <!--text---------->
+    <div class="main-slider-text">
+        <!--quality----->
+        <span class="quality">Full HD</span>
+        <!--bottom-text-->
+        <div class="bottom-text">
+            <!--name----->
+            <div class="movie-name">
+                <span>2021</span>
+                <a href="#">Venom: Let There Be Carnage</a>
+            </div>
+            <!--Category-and-rating---->
+            <div class="category-rating">
+                <!--category-->
+                <div class="category">
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--rating--->
+                <div class="rating">
+                    5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!--post-box-2------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-2.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">The Tomorrow War</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-3------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-3.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Jungle Cruise</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-4------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-4.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Dune</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-5------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-5.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">The Suicide Squad</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-6------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-6.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">No Time To Die</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-7------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-7.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Old</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-8------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-8.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Rumble</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-9------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-9.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">WandaVision</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-10------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-10.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Prisoners of the Ghostland (2021)</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-11------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-11.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Luca</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--post-box-12------------>
+<div class="post-box">
+    <!--img-->
+    <div class="post-img">
+        <img alt="" src="img/post-12.jpg"/>
+    </div>
+    <!--text---------->
+<div class="main-slider-text">
+    <!--quality----->
+    <span class="quality">Full HD</span>
+    <!--bottom-text-->
+    <div class="bottom-text">
+        <!--name----->
+        <div class="movie-name">
+            <span>2021</span>
+            <a href="#">Annette</a>
+        </div>
+        <!--Category-and-rating---->
+        <div class="category-rating">
+            <!--category-->
+            <div class="category">
+                <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--rating--->
+            <div class="rating">
+                5.2 <img alt="imbd" src="img/IMDb-icon.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!--container-end--->
+<!--page-number=====================-->
+<div class="page-number">
+<a href="#" class="page-active">1</a>
+<a href="#">2</a>
+<a href="#">3</a>
+....
+<a href="#">100</a>
+</div>
+</section>
+<!--latest-post-end------->
+<!--==footer==============================-->
+<footer>
+<!--footer-logo--->
+<a href="index.html" class="logo">
+Movie HD<span>hd</span>
+</a>
+<!--copyright----->
+<span class="copyright">
+Copyright 2021 - GoingToInternet
+</span>
+</footer>
+<!--==JS-Swiper====================================-->
+<script src="js/dream.js"></script>
+<!--==jQuery=======================================-->
+<script src="js/film.js"></script>
+<script>
+/*==scroll-progress-bar======================*/
+let scrollPrecentage = () =>{
+let scrollProgress = document.getElementById("progress");
+let progressValue = document.getElementById("progress-value");
+let pos = document.documentElement.scrollTop;
+let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+let scrollValue = Math.round(pos * 100 / calcHeight);
+scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+}
+window.onscroll = scrollPrecentage;
+window.onload = scrollPrecentage;
+/*Initialize Swiper*/
+var swiper = new Swiper(".mySwiper", {
+slidesPerView: 1,
+spaceBetween: 10,
+pagination: {
+el: ".swiper-pagination",
+clickable: true,
+},
+autoplay: {
+delay: 5000,
+disableOnInteraction: false,
+},
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+breakpoints: {
+640: {
+  slidesPerView: 2,
+  spaceBetween: 20,
+},
+768: {
+  slidesPerView: 2,
+  spaceBetween: 40,
+},
+1024: {
+  slidesPerView: 3,
+  spaceBetween: 50,
+},
+},
+});
+/*--menu-btn-fixed-when-scroll============*/
+$(window).scroll(function(){
+if($(document).scrollTop() > 20){
+    $('.navigation').addClass('fix-icon');
+}
+else{
+    $('.navigation').removeClass('fix-icon');
+}
+});
+</script>
+</body>
+</html>
