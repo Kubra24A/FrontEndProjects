@@ -1,0 +1,583 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+
+:root{
+    --main-color: rgb(75, 14, 4);
+    --text-color: #fffefe;
+    --bg-color: rgb(245, 234, 234);
+}
+section{
+    padding: 4rem 0 2rem;
+
+}
+
+img{
+    width: 100%;
+}
+html,
+body{
+    margin: 0;
+    height: 100%;
+    color: var(--text-color);
+}
+.container{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    display: none;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+
+.logo span{
+    color: var(--main-color);
+    font-size: 50px;
+    text-decoration: none;
+   
+}
+
+.menu .navbar{
+    display: flex;
+    column-gap: 7rem;
+}
+
+.menu .navbar a{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu-scroll{
+        background-color: rgba(75, 2, 2, 0.5);
+}
+
+.navbar a:hover,
+.navbar .active{
+    color: #5c0101 ;
+    
+}
+
+
+
+#search-icon{
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+
+
+.search-box{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background: var(--bg-color);
+    box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+    border: 1px solid var(--main-color);
+    border-radius: 1rem;
+    clip-path: circle(0% at 100% 0%);
+}
+.search-box.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.4ms;
+}
+
+.search-box input{
+    width: 100%;
+    height: 100½;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 2rem;
+    background: var(--bg-color);
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-main{
+    background-image:linear-gradient(rgba(47, 47, 47, 0.6), rgba(0, 0, 0, 0.6)), url(/logistic/img/5ede509408a01159162792466.jpg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-main .home{
+    width: 750px;
+    color: #fff;
+    font-weight: 275;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70%;
+}
+
+.section-main .home h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.section-main .home-text{
+    width: 750px;
+    color: #fff;
+    font-weight: 275;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.section-main .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    color: #fff;
+   width: 150px;
+   height: 40px;
+   margin-top: 30px;
+   font-size: 16px;
+    box-shadow: 0px 1px 1px rgb(9, 9, 9), 0px 0px 0px 2px rgb(67, 2, 2);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.section-main .btn:hover{
+    background-color: #270101;
+    color: #ffffff;
+}
+@media  screen and(max-width:786px){
+    .section-main .home{
+        width: 200px;
+        color: #fff;
+        font-weight: 200;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .section-main .home h1{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif
+    }
+    .section-main .home-text{
+        width: 500px;
+        color: #fff;
+        font-weight: 275;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif
+    }
+    
+
+}
+
+.section-about{
+    
+      background-color: rgb(34, 33, 33);
+}
+.leons{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.leons h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.leons .leon{
+    float: left;
+    width: 55%;
+}
+.leons .leon p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.social-img{
+    float: right;
+    width: 40%;
+
+}
+.social-img img{
+    width: 100%;
+    height: 100%;
+    background-image: url(/logistic/img/kargo.jpg);
+}
+.cat{
+    margin-top: 30px;
+}
+.cat a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    color: #fff;
+   width: 150px;
+   height: 40px;
+   margin-top: 30px;
+   font-size: 16px;
+    box-shadow: 0px 1px 1px rgb(9, 9, 9), 0px 0px 0px 2px rgb(67, 2, 2);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.cat a:hover{
+    background-color: #270101;
+    color: #ffffff;
+}
+@media (max-widht: 480px){
+    .leons{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+        
+    }
+    .social-img{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        display: flex;
+    }   
+    
+    .leons .leon{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+.section-package{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/logistic/img/nakliyatanasayfa2.png);
+}
+.section-package *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.wrapper h1{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px 0;
+    font-weight: 500;
+    text-align: center;
+    font-weight: 500;
+   
+}
+.wrapper p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+.content-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-top: 30px;
+}
+
+.card{
+   width: 22%;
+   height: 60%;
+    min-height: 50px;
+    height: 170px;
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: #272727 ;
+    margin: 6px 4px;
+    box-shadow: 0px 10px 18px rgb(0,0,0,0.2);
+}
+.card i{
+    margin: 22px;
+    color: #0b0b0b;
+    
+}
+.card h2{
+    margin-bottom: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card:hover i,
+.card:hover p{
+    color: #ffffff;
+}
+.card:hover h2{
+    font-weight: 500;
+    color: #f2f2f2;
+
+}
+
+.card:nth-child(1):hover{
+    background: linear-gradient(45deg,
+                                  rgba(27, 27, 27, 0.6) 0%,
+                                  rgba(37, 1, 1, 0.6) 100%),
+                                  url(/logistic/img/people.png);
+background-size: cover;
+}
+.card:nth-child(2):hover{
+    background: linear-gradient(45deg,
+                                  rgba(27, 27, 27, 0.6) 0%,
+                                  rgba(37, 1, 1, 0.6) 100%),
+                                  url(/logistic/img/koli.png);
+background-size: cover;
+}
+.card:nth-child(3):hover{
+    background: linear-gradient(45deg,
+                                  rgba(27, 27, 27, 0.6) 0%,
+                                  rgba(37, 1, 1, 0.6) 100%),
+                                  url(/logistic/img/people.png);
+background-size: cover;
+}
+.card:nth-child(4):hover{
+    background: linear-gradient(45deg,
+                                  rgba(27, 27, 27, 0.6) 0%,
+                                  rgba(37, 1, 1, 0.6) 100%),
+                                  url(/logistic/img/güzel.png);
+background-size: cover;
+}
+
+/***Responsive***/
+@media (max-widht: 991px){
+    .wrapper{
+        padding: 25px;
+    }
+    .wrapper h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
+.section-loc{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(15, 15, 15, 0.6)), url(/logistic/img/locas.png);
+}
+.section-loc *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.section-loc .contact{
+    width: 80%;
+    margin: auto;
+
+}
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contan-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #fff;
+}
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cont-element i{
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s case;
+}
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+
+}
+.cont-element a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-bottom a{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+   
+    background-color: #272727;
+    border-radius: 50%;
+
+}
+.cont-bottom a:hover{
+    color: #272727;
+    background-color: #ffffff;
+}
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cont-right form input,textarea,button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.cont-right form button{
+    background-color: #270101;
+    color: #ffffff;
+    cursor: pointer;
+}
+.cont-right form button:hover{
+    background-color: #ffffff ;
+    color: #270101;
+
+}
+.cont-right form input:hover,textarea:hover{
+    background-color: #ffffff;
+    color: #270101;
+}
+.cont-right form input:focus,textarea:focus{
+    background-color: #ffffff;
+    color: #270101;
+}
+
+@media  screen and(max-width: 800px){
+    h2{
+        text-align: center;
+        
+    }
+    .logo{
+        font-size: 1rem;
+        font-weight: 300;
+        color: var(--text-color);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    .container{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .menu .navbar a{
+        color: var(--text-color);
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+
+
+    
+}
+
+
